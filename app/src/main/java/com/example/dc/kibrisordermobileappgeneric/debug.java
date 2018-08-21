@@ -14,7 +14,7 @@ public class debug extends AppCompatActivity {
     ListView listViewDebug;
     ArrayAdapter adapter;
     String Activities[] ={"No activities yet"};
-
+String JustAComment = "Just a comment";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
