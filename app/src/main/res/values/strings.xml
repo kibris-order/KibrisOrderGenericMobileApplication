@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">KibrisorderMobileAppGeneric</string>
+    <string name="MyCoupon">My Coupons</string>
+    <string name="SellerCoupon">Seller Coupons</string>
+    <string name="NoCoupon">No Coupon Available</string>
 </resources>
