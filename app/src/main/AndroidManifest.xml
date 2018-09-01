@@ -19,6 +19,8 @@
         <activity android:name=".CouponemptyActivity"></activity>
         <activity android:name=".Signin" />
         <activity android:name=".Register"></activity>
+
+        <activity android:name=".paymentResult"></activity>
     </application>
 
 </manifest>
