@@ -3,4 +3,7 @@
     <string name="MyCoupon">My Coupons</string>
     <string name="SellerCoupon">Seller Coupons</string>
     <string name="NoCoupon">No Coupon Available</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="sign_in">Sign In</string>
 </resources>

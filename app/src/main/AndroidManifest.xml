@@ -17,6 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".CouponemptyActivity"></activity>
+        <activity android:name=".Signin" />
+        <activity android:name=".Register"></activity>
     </application>
 
 </manifest>
