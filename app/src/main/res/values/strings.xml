@@ -3,4 +3,8 @@
     <string name="MyCoupon">My Coupons</string>
     <string name="SellerCoupon">Seller Coupons</string>
     <string name="NoCoupon">No Coupon Available</string>
+    <string name="payment_thanks">Your payment has been accepted!\n Amount received : $100 </string>
+    <string name="order">Order List</string>
+    <string name="home">Home</string>
+
 </resources>
