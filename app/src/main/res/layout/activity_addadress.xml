@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d8d6d6"
+    tools:context=".Addadress">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="673dp"
+        android:layout_height="41dp"
+        android:background="#f6f6fa"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="246dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="7dp"
+        android:text="Add new address"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/toolbar3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="440dp"
+        android:layout_height="648dp"
+        android:layout_marginTop="3dp"
+        android:background="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="422dp"
+                android:layout_height="58dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginStart="16dp"
+                android:background="#d9d6d6"
+                android:text="    Please enter your address in English as required by internaltional logistics services."
+                android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="381dp"
+                android:layout_height="43dp"
+                android:layout_marginEnd="11dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="14dp"
+                android:ems="10"
+                android:hint="Contact Name*"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="34dp"
+                android:layout_height="35dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="28dp"
+                android:text="--"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toStartOf="@+id/num"
+                app:layout_constraintStart_toEndOf="@+id/textView11"
+                app:layout_constraintTop_toBottomOf="@+id/name" />
+
+            <EditText
+                android:id="@+id/num"
+                android:layout_width="231dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="36dp"
+                android:layout_marginRight="36dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="phone number*"
+                android:inputType="phone"
+                app:layout_constraintBottom_toTopOf="@+id/mail"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/name"
+                app:layout_constraintVertical_bias="0.379" />
+
+            <Spinner
+                android:id="@+id/addresstype"
+                android:layout_width="368dp"
+                android:layout_height="43dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.508"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mail" />
+
+            <Spinner
+                android:id="@+id/city"
+                android:layout_width="369dp"
+                android:layout_height="43dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.508"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/addresstype" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="95dp"
+                android:layout_height="22dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Address Type"
+                android:textColor="@android:color/background_dark"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.791"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/addresstype" />
+
+            <EditText
+                android:id="@+id/mail"
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="11dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="36dp"
+                android:ems="10"
+                android:hint="Email*"
+                android:inputType="textEmailAddress"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.555"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="38dp"
+                android:layout_height="23dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="12dp"
+                android:text="City"
+                android:textColor="@android:color/background_dark"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@+id/city"
+                app:layout_constraintHorizontal_bias="0.884"
+                app:layout_constraintStart_toStartOf="@+id/city"
+                app:layout_constraintTop_toTopOf="@+id/city" />
+
+            <EditText
+                android:id="@+id/desc"
+                android:layout_width="375dp"
+                android:layout_height="84dp"
+                android:layout_marginBottom="80dp"
+                android:layout_marginEnd="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="31dp"
+                android:ems="10"
+                android:hint="Address Description*"
+                android:inputType="textMultiLine"
+                app:layout_constraintBottom_toTopOf="@+id/save"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.508"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/city" />
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="278dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="53dp"
+                android:layout_marginLeft="52dp"
+                android:layout_marginRight="53dp"
+                android:layout_marginStart="52dp"
+                android:layout_marginTop="48dp"
+                android:background="#FFF81F2E"
+                android:text="SAVE"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.508"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/desc" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="63dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="20dp"
+                android:text="   +90"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/mail"
+                app:layout_constraintEnd_toStartOf="@+id/textView6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/name" />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="-4dp" />
+
+</android.support.constraint.ConstraintLayout>

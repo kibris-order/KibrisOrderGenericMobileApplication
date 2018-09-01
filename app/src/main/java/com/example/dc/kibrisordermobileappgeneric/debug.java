@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 
 public class debug extends AppCompatActivity {
@@ -14,12 +15,12 @@ public class debug extends AppCompatActivity {
     ListView listViewDebug;
     ArrayAdapter adapter;
     String Activities[] ={"No activities yet"};
+    Button b;
 String JustAComment = "Just a comment";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_debug);
-
 
         Log.d(TAG, "onCreate: ");
 
