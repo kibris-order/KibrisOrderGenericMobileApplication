@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Selectaddress">
+        <activity android:name=".Shoppingcartempty">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,7 +19,9 @@
         <activity android:name=".debug" />
         <activity android:name=".Register" />
         <activity android:name=".Signin" />
-        <activity android:name=".Addadress"></activity>
+        <activity android:name=".Addadress" />
+        <activity android:name=".Selectaddress" />
+        <activity android:name=".Homepage"></activity>
     </application>
 
 </manifest>
