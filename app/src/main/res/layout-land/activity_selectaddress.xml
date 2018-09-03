@@ -10,8 +10,8 @@
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#f6f6fa"
+        android:layout_height="57dp"
+        android:background="@android:color/black"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,11 +35,11 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="113dp"
-        android:layout_height="38dp"
+        android:layout_width="178dp"
+        android:layout_height="43dp"
         android:text="ADDRESS"
-        android:textColor="@android:color/background_dark"
-        android:textSize="24sp"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
         app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintEnd_toEndOf="parent"

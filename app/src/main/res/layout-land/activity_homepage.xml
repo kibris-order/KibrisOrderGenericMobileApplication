@@ -8,19 +8,18 @@
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar5"
-        android:layout_width="513dp"
+        android:layout_width="835dp"
         android:layout_height="53dp"
         android:background="@android:color/background_dark"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.009"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <SearchView
-        android:id="@+id/searchView"
-        android:layout_width="311dp"
+        android:layout_width="523dp"
         android:layout_height="37dp"
         android:layout_marginEnd="93dp"
         android:layout_marginLeft="38dp"
@@ -34,11 +33,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
-        android:layout_width="414dp"
-        android:layout_height="554dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="789dp"
+        android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/toolbar5">
 
         <android.support.constraint.ConstraintLayout
@@ -47,53 +43,56 @@
             android:layout_height="match_parent">
 
             <android.support.v7.widget.CardView
-                android:layout_width="476dp"
+                android:layout_width="788dp"
                 android:layout_height="303dp"
-                android:layout_marginTop="26dp"
+                android:layout_marginTop="36dp"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.603"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cardView3">
 
                 <ImageView
-                    android:id="@+id/imageView12"
-                    android:layout_width="472dp"
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/lol" />
+                    app:srcCompat="@drawable/lokf" />
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:id="@+id/cardView2"
-                android:layout_width="match_parent"
-                android:layout_height="87dp"
+                android:layout_width="793dp"
+                android:layout_height="97dp"
+                android:layout_marginTop="4dp"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.684"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
                 <ImageView
                     android:id="@+id/imageView6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="79dp"
+                    android:layout_width="685dp"
+                    android:layout_height="86dp"
                     app:srcCompat="@drawable/loge" />
 
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:id="@+id/cardView3"
-                android:layout_width="407dp"
+                android:layout_width="781dp"
                 android:layout_height="104dp"
                 android:layout_marginEnd="3dp"
                 android:layout_marginLeft="4dp"
                 android:layout_marginRight="3dp"
                 android:layout_marginStart="4dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintHorizontal_bias="0.619"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cardView2">
 
                 <TextView
                     android:id="@+id/textView15"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="       Insert image slider on this card view"
                     android:textColor="@android:color/black"
