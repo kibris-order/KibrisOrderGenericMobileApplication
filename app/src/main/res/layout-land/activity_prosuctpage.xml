@@ -163,7 +163,7 @@
                                 android:layout_weight="1"
                                 android:numStars="5"
                                 android:rating="5"
-                                android:stepSize="0.5" />
+                                android:stepSize="0.5" tools:targetApi="lollipop"/>
 
                             <TextView
                                 android:id="@+id/textView17"
