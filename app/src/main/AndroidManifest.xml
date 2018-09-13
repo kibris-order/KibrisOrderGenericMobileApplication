@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".CouponemptyActivity" />
-        <activity android:name=".paymentResult"></activity>
+        <activity android:name=".paymentResult" />
+        <activity android:name=".EmptyWishlistActivity" />
+        <activity android:name=".WishliistActivity"></activity>
     </application>
 
 </manifest>
