@@ -12,5 +12,9 @@
     <string name="FavoriteItems">Favorite Items</string>
     <string name="ProductName">Product Name</string>
     <string name="Price">Price</string>
+    <string name="Supplier">Supplier\'s Name</string>
+    <string name ="Products">Products</string>
+    <string name="Feedbacks">Feedbacks</string>
+
 
 </resources>

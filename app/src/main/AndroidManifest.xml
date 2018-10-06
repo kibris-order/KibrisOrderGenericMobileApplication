@@ -19,7 +19,8 @@
         <activity android:name=".CouponemptyActivity" />
         <activity android:name=".paymentResult" />
         <activity android:name=".EmptyWishlistActivity" />
-        <activity android:name=".WishliistActivity"></activity>
+        <activity android:name=".WishliistActivity" />
+        <activity android:name=".SupplierActivity"></activity>
     </application>
 
 </manifest>

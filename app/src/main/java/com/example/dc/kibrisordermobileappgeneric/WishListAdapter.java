@@ -23,7 +23,7 @@ public class WishListAdapter extends RecyclerView.Adapter<WishListAdapter.WishLi
             super(itemView);
             mImageView= itemView.findViewById(R.id.imageView);
             mProductName= itemView.findViewById(R.id.productName);
-            mProductPrice= itemView.findViewById(R.id.productPrice);
+            mProductPrice= itemView.findViewById(R.id.price);
         }
     }
 
