@@ -20,7 +20,8 @@
         <activity android:name=".paymentResult" />
         <activity android:name=".EmptyWishlistActivity" />
         <activity android:name=".WishliistActivity" />
-        <activity android:name=".SupplierActivity"></activity>
+        <activity android:name=".SupplierActivity" />
+        <activity android:name=".EmpryNotifActivity"></activity>
     </application>
 
 </manifest>
