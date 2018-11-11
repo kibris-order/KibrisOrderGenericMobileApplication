@@ -35,6 +35,8 @@ String JustAComment = "Just a comment";
                     case 0:
                         startActivity(new Intent(debug.this,debug.class));break;
 
+
+
                 }
 
             }
