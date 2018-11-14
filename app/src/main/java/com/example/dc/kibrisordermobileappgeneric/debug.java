@@ -13,7 +13,7 @@ public class debug extends AppCompatActivity {
     private static final String TAG = "debugActivity";
     ListView listViewDebug;
     ArrayAdapter adapter;
-    String Activities[] ={"No activities yet"};
+    String Activities[] ={"No activities yet" ,"Notification", "Coupon", "Wishlist", "Payment"};
 String JustAComment = "Just a comment";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +34,15 @@ String JustAComment = "Just a comment";
                 switch(position){
                     case 0:
                         startActivity(new Intent(debug.this,debug.class));break;
+                    case 1:
+                        startActivity(new Intent(debug.this, EmpryNotifActivity.class));break;
+                    case 2:
+                        startActivity(new Intent(debug.this, CouponemptyActivity.class));break;
+                    case 3:
+                        startActivity(new Intent(debug.this,EmptyWishlistActivity.class));break;
+                    case 4:
+                        startActivity(new Intent(debug.this,paymentResult.class));break;
+
 
 
 
